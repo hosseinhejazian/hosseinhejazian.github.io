@@ -20,7 +20,7 @@ I am a Postdoctoral Fellow at [Public Impact Analytics Science Lab (PIAS-Lab)](h
     **Building A, Level 3, Room A313**
 
 * I also chair a session in Health Applications Society cluster. Here is the session information:
-  * Session: SE11 ([Frontiers in Healthcare Analytics](https://submissions.mirasmart.com/InformsAnnual2025/Itinerary/SearchHome.aspx))\
+  * Session: TE33 ([Frontiers in Healthcare Analytics](https://submissions.mirasmart.com/InformsAnnual2025/Itinerary/SearchHome.aspx))\
     Tuesday, October 28 | 4:15–5:30 PM\
     Building B, Level 2, Room B207.
 
