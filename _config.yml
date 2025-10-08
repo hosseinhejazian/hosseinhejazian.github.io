@@ -121,6 +121,8 @@ author:
 include:
   - .htaccess
   - _pages
+  - _research
+  - _teaching
   - files
 exclude:
   - "*.sublime-project"
@@ -175,8 +177,11 @@ kramdown:
 
 # Collections
 collections:
+  research:
+    output: true
+    permalink: /:collection/:path/
   teaching:
-    output: false
+    output: true
     permalink: /:collection/:path/
   publications:
     output: false
