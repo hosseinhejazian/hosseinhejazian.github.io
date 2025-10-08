@@ -22,17 +22,16 @@ My teaching emphasizes clarity, engagement, and the connection between analytica
 **Integrated Management Essentials 2 (INTG 202)** – Winter 2022  
 - Co-Instructor for Operations Management module |  133 Undergraduate students  
 
----
-
+<!---
 ## Teaching Assistant — McGill University
 - Decision Analytics (MGSC 662, MMA Program)  
 - Operations Management (MGCR 472, BCom Program)  
 - Revenue Management (MGSC 670, MMA Program)
+-->
 
----
-
+<!---
 ## Teaching Assistant — Amirkabir University of Technology (Tehran Polytechnic)
 - Operations Research (MSc IE)  
 - Statistical Engineering (BSc IE)  
 - Probability Theory Applications (BSc IE)
-
+-->
