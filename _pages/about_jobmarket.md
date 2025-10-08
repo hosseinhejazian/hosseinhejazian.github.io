@@ -44,11 +44,14 @@ permalink: /awards/
 - **Desautels Faculty PhD Scholarship** — McGill University (2018)  
 - **International Supplement of PhD Program Tuition Fee** — McGill University (2018)  
 - **National Bank Financial Group PhD Fellowship** — National Bank of Canada (2017)
+
 <!--
 - **Merit-Based Exemption for MSc Entrance Exam** — Tehran Polytechnic (2011)  
 - **MSc Program Scholarship** — Iran Ministry of Science and Technology (2011)  
 - **BSc Program Scholarship** — Iran Ministry of Science and Technology (2007)
+-->
 
+<!--
 ## Professional Memberships
 - Institute for Operations Research and the Management Sciences (INFORMS)  
   – Manufacturing & Service Operations Management (MSOM)  
