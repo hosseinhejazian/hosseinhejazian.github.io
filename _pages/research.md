@@ -23,7 +23,7 @@ Empirical Research · Causal Inference · Machine Learning/Predictive Modelling 
 ---
 
 ## Under Review
-**The Impact of Hospital Characteristics on Psychiatry Readmissions: A Mediation Framework**  
+**[The Impact of Hospital Characteristics on Psychiatry Readmissions: A Mediation Framework](https://papers.ssrn.com/abstract=4438262)**  
 *Hejazian, H., Kucukyazici, B., Nasiry, J., Verter, V., Frank, D.*
  - Under review.
  - Finalist, Graduate Student Presentation Competition (CORS Health Care Operational Research SIG)
