@@ -5,9 +5,8 @@ permalink: /teaching/
 author_profile: true
 ---
 
-## Teaching Philosophy
-My teaching emphasizes clarity, engagement, and the connection between analytical methods and real-world decision-making.  
-Students describe my courses as *“a difficult class taught well which made it easier”* and praise my patience and approachability.
+<!--## Teaching Philosophy-->
+My teaching emphasizes clarity, engagement, and the connection between analytical methods and real-world decision-making. Students describe my courses as *“a difficult class taught well which made it easier”* and praise my patience and approachability.
 
 ---
 
