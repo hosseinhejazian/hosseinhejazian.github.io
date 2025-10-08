@@ -11,5 +11,6 @@ My CV can be found [here](https://www.dropbox.com/scl/fi/5tyh5263ycl0yfbla45hl/C
 
 ---
 
-For reference, I am currently a **Postdoctoral Fellow** at the **Public Impact Analytics Science Lab, Harvard Kennedy School**, Harvard University, Cambridge MA.  
+<!--For reference, I am currently a **Postdoctoral Fellow** at the **Public Impact Analytics Science Lab, Harvard Kennedy School**, Harvard University, Cambridge MA.
+-->
 You can also visit my [Google Scholar](https://scholar.google.com/citations?user=Di4VDJgAAAAJ) and [LinkedIn](https://www.linkedin.com/in/hossein-hejazian-1ab60053/) profiles for updates.
