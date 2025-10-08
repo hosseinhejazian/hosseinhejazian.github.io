@@ -7,7 +7,6 @@ redirect_from:
   - /resume
 ---
 
-## CV
 My CV can be found [here](https://www.dropbox.com/scl/fi/5tyh5263ycl0yfbla45hl/CV_2025.pdf?rlkey=qa3uusvmidllv00z13vnsiznp&st=dgvl6pjn&dl=0).
 
 ---
