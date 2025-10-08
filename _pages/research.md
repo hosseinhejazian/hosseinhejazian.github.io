@@ -5,6 +5,9 @@ permalink: /research/
 author_profile: true
 ---
 
+My research sits at the intersection operations management and AI/ML for health-care delivery and the business of health, drawing on empirical research, causal inference, interpretable machine learning, and reinforcement learning to design, evaluate,
+and govern decision systems that improve access, quality, and cost.
+
 ## Research Interests
 Healthcare Operations · Health Analytics · Data Analytics  
 Empirical Research · Causal Inference · Machine Learning/Predictive Modelling · Reinforcement Learning
