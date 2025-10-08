@@ -8,13 +8,14 @@ author_profile: true
 ## Research Interests
 Healthcare Operations · Health Analytics · Data Analytics  
 Empirical Research · Causal Inference · Machine Learning/Predictive Modelling · Reinforcement Learning
+
 ---
 
 ## Publications
 **Multi-objective optimization of radiotherapy: distributed Q-learning and agent-based simulation**  
 *Jalalimanesh, A., Haghighi, H.S., Ahmadi, A., Hejazian, H., Soltani, M.*  
 *Journal of Experimental & Theoretical Artificial Intelligence* 29 (5): 1071–1086.  
-<small>Journal H-index = 55</small>
+<!-- <small>Journal H-index = 55</small> -->
 
 ---
 
