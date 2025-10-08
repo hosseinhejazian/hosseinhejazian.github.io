@@ -9,7 +9,6 @@ redirect_from:
 ---
 
 ## About Me
-___
 I am a Postdoctoral Fellow at [Public Impact Analytics Science Lab (PIAS-Lab)](https://scholar.harvard.edu/saghafian/public-impact-analytics-science-lab-pias-lab-harvard), [Harvard University](https://www.harvard.edu/), working with Professor [Soroush Saghafian](https://www.hks.harvard.edu/faculty/soroush-saghafian). Prior to joining Harvard, I received my Ph.D. in Operations Management from [Desautels Faculty of Management](https://www.mcgill.ca/desautels/), [McGill University](https://www.mcgill.ca/), advised by Professor [Javad Nasiry](https://www.mcgill.ca/desautels/javad-nasiry) and Professor [Vedat Verter](https://smith.queensu.ca/faculty_and_research/faculty_list/verter-vedat.php).
 
 * <span style="color:blue"> I am on the 2025-2026 academic job market </span>   
@@ -27,7 +26,6 @@ I am a Postdoctoral Fellow at [Public Impact Analytics Science Lab (PIAS-Lab)](h
 <!--My doctoral thesis, entitled "An Analytical Framework for Mental Healthcare Operations Management", incorporates an interdisciplinary approach and integrates a diverse array of analytical tools ranging from empirical methods to machine learning techniques to distill complex insights from healthcare data.-->
 
 ## Research Interests
-___
 My research sits at the intersection operations management and AI/ML for health-care delivery and the business of health, drawing on empirical research, causal inference, interpretable machine learning, and reinforcement learning to design, evaluate,
 and govern decision systems that improve access, quality, and cost.
 
