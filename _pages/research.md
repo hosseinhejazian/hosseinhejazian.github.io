@@ -1,7 +1,5 @@
-# This is the markdown for the Research page
-
 ---
-layout: page
+layout: archive
 title: "Research"
 permalink: /research/
 author_profile: true
