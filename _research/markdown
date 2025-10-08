@@ -4,7 +4,7 @@
 layout: page
 title: "Research"
 permalink: /research/
-author_profile: true
+<!--author_profile: true-->
 ---
 
 ## Research Interests
@@ -24,7 +24,7 @@ Empirical Research · Causal Inference · Interpretable Machine Learning · Rein
 ## Under Review
 **The Impact of Hospital Characteristics on Psychiatry Readmissions: A Mediation Framework**  
 *Hejazian, H., Kucukyazici, B., Nasiry, J., Verter, V., Frank, D.*  
-– Under review at *Journal of Operations Management*  
+– Under review.
 – Finalist, Graduate Student Presentation Competition (CORS Health Care Operational Research SIG)
 
 ---
