@@ -7,8 +7,7 @@ author_profile: true
 
 ## Research Interests
 Healthcare Operations · Health Analytics · Data Analytics  
-Empirical Research · Causal Inference · Interpretable Machine Learning · Reinforcement Learning · Econometrics
-
+Empirical Research · Causal Inference · Machine Learning/Predictive Modelling · Reinforcement Learning
 ---
 
 ## Publications
@@ -21,9 +20,9 @@ Empirical Research · Causal Inference · Interpretable Machine Learning · Rein
 
 ## Under Review
 **The Impact of Hospital Characteristics on Psychiatry Readmissions: A Mediation Framework**  
-*Hejazian, H., Kucukyazici, B., Nasiry, J., Verter, V., Frank, D.*  
-– Under review.
-– Finalist, Graduate Student Presentation Competition (CORS Health Care Operational Research SIG)
+*Hejazian, H., Kucukyazici, B., Nasiry, J., Verter, V., Frank, D.*
+ - Under review.
+ - Finalist, Graduate Student Presentation Competition (CORS Health Care Operational Research SIG)
 
 ---
 
@@ -49,7 +48,7 @@ Target journal: an emergency medicine journal
 - **From Overlooked to Essential: Mining Clinical Psychiatry Notes with Language Models**  
   *Hejazian, H., Nasiry, J., Verter, V., Frank, D.*
 
----
+<!---
 
 ## Invited Talks & Conference Presentations
 **Seminar Talks**
@@ -60,3 +59,4 @@ Target journal: an emergency medicine journal
 - *Interpretable Design of Multi-Agent Mobile Health Applications*, INFORMS Annual Meeting (Oct 2025)  
 - *Effectiveness and Efficiency of ED Staff*, INFORMS Annual Meeting (Oct 2024)  
 - *Psychiatry Readmissions* presented at INFORMS (2021–2023), CORS 2023, MSOM 2023, and POMS 2022
+-->
