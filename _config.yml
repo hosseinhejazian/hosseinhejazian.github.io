@@ -190,6 +190,9 @@ collections:
   talks:
     output: false
     permalink: /:collection/:path/
+  cv:
+    output: false
+    permalink: /:collection/:path/
 
 
 # Defaults
