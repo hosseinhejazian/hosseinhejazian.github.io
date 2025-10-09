@@ -5,6 +5,16 @@ permalink: /research/
 author_profile: true
 ---
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TRP046J4R0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TRP046J4R0');
+</script>
+
 My research sits at the intersection operations management and AI/ML for health-care delivery and the business of health, drawing on empirical research, causal inference, interpretable machine learning, and reinforcement learning to design, evaluate,
 and govern decision systems that improve access, quality, and cost.
 
