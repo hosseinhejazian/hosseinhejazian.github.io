@@ -8,6 +8,16 @@ redirect_from:
   - /about.html
 ---
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TRP046J4R0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TRP046J4R0');
+</script>
+
 ## About Me
 I am a Postdoctoral Fellow at [Public Impact Analytics Science Lab (PIAS-Lab)](https://scholar.harvard.edu/saghafian/public-impact-analytics-science-lab-pias-lab-harvard), [Harvard University](https://www.harvard.edu/), working with Professor [Soroush Saghafian](https://www.hks.harvard.edu/faculty/soroush-saghafian). Prior to joining Harvard, I received my Ph.D. in Operations Management from [Desautels Faculty of Management](https://www.mcgill.ca/desautels/), [McGill University](https://www.mcgill.ca/), advised by Professor [Javad Nasiry](https://www.mcgill.ca/desautels/javad-nasiry) and Professor [Vedat Verter](https://smith.queensu.ca/faculty_and_research/faculty_list/verter-vedat.php).
 
