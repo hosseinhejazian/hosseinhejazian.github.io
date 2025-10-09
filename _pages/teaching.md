@@ -5,6 +5,16 @@ permalink: /teaching/
 author_profile: true
 ---
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TRP046J4R0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TRP046J4R0');
+</script>
+
 <!--## Teaching Philosophy-->
 My teaching emphasizes clarity, engagement, and the connection between analytical methods and real-world decision-making. Students describe my courses as *“a difficult class taught well which made it easier”* and praise my patience and approachability.
 
