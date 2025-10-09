@@ -5,6 +5,16 @@ permalink: /talks/
 author_profile: true
 ---
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TRP046J4R0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TRP046J4R0');
+</script>
+
 ## Invited Seminar Talks
 
 **An Analytical Framework for Mental Healthcare Operations Management**  
