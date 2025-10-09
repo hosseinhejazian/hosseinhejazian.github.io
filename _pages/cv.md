@@ -7,6 +7,16 @@ redirect_from:
   - /resume
 ---
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TRP046J4R0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TRP046J4R0');
+</script>
+
 My CV can be found [here](https://www.dropbox.com/scl/fi/5tyh5263ycl0yfbla45hl/CV_2025.pdf?rlkey=qa3uusvmidllv00z13vnsiznp&st=dgvl6pjn&dl=0).
 
 ---
