@@ -20,7 +20,7 @@ and govern decision systems that improve access, quality, and cost.
 
 ## Research Interests
 Healthcare Operations · Health Analytics · Data Analytics  
-Empirical Research · Causal Inference · Machine Learning/Predictive Modelling · Reinforcement Learning
+Empirical Research · Causal Inference · Machine Learning/Predictive Modeling · Reinforcement Learning
 
 ---
 
