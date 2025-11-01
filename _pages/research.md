@@ -19,9 +19,8 @@ My research sits at the intersection operations management and AI/ML for health-
 and govern decision systems that improve access, quality, and cost.
 
 ## Research Interests
-Operations Management · Healthcare Management · Health Analytics
-
-Empirical Research · Causal Inference · Machine Learning/Predictive Modeling · Sequential Decision-Making
+- Operations Management · Healthcare Management · Health Analytics
+- Empirical Research · Causal Inference · Machine Learning/Predictive Modeling · Sequential Decision-Making
 
 ---
 
