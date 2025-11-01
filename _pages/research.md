@@ -20,6 +20,7 @@ and govern decision systems that improve access, quality, and cost.
 
 ## Research Interests
 Operations Management · Healthcare Management · Health Analytics
+
 Empirical Research · Causal Inference · Machine Learning/Predictive Modeling · Sequential Decision-Making
 
 ---
