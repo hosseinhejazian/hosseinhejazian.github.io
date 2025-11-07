@@ -53,6 +53,8 @@ permalink: /awards/
 - Production and Operations Management Society (POMS)
 -->
 
+## Job Market
+
 * <span style="color:blue"> I am on the 2025-2026 academic job market </span>   
 * I will be available for interviews at the INFORMS Annual Meeting (Atlanta, Oct 26–29). I am presenting my job market paper in the INFORMS Job Market Showcase:
   * **[Interpretable Design of Multi-Agent Mobile Health Applications](https://submissions.mirasmart.com/InformsAnnual2025/Itinerary/PresentationDetail.aspx?evdid=3287)**\
