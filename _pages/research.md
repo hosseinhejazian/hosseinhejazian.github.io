@@ -25,7 +25,7 @@ and govern decision systems that improve access, quality, and cost.
 ---
 
 ## Publications
-**Multi-objective optimization of radiotherapy: distributed Q-learning and agent-based simulation**  
+**[Multi-objective optimization of radiotherapy: distributed Q-learning and agent-based simulation](https://www.tandfonline.com/doi/full/10.1080/0952813X.2017.1292319)**  
 *Jalalimanesh, A., Haghighi, H.S., Ahmadi, A., Hejazian, H., Soltani, M.*  
 *Journal of Experimental & Theoretical Artificial Intelligence* 29 (5): 1071–1086.  
 <!-- <small>Journal H-index = 55</small> -->
