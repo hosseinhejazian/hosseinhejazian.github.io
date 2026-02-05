@@ -52,7 +52,7 @@ permalink: /awards/
   – Health Applications Society (HAS)  
 - Production and Operations Management Society (POMS)
 -->
-
+<!--
 ## Job Market
 
 * <span style="color:blue"> I am on the 2025-2026 academic job market </span>   
@@ -66,5 +66,5 @@ permalink: /awards/
   * Session: TE33 ([Frontiers in Healthcare Analytics](https://submissions.mirasmart.com/InformsAnnual2025/Itinerary/SearchHome.aspx))\
     Tuesday, October 28 | 4:15–5:30 PM\
     Building B, Level 2, Room B207.
-
+-->
 <!--My doctoral thesis, entitled "An Analytical Framework for Mental Healthcare Operations Management", incorporates an interdisciplinary approach and integrates a diverse array of analytical tools ranging from empirical methods to machine learning techniques to distill complex insights from healthcare data.-->
