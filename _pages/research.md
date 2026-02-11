@@ -35,7 +35,7 @@ and govern decision systems that improve access, quality, and cost.
 ## Under Review
 **[The Impact of Hospital Characteristics on Psychiatry Readmissions: A Mediation Framework](https://papers.ssrn.com/abstract=4438262)**  
 *Hejazian, H., Kucukyazici, B., Nasiry, J., Verter, V., Frank, D.*
- - Under review.
+ - Major Revision at Health Care Management Science.
  - Finalist, Graduate Student Presentation Competition (CORS Health Care Operational Research SIG)
 
 ---
@@ -47,7 +47,7 @@ In preparation for submission to *Management Science*
 
 **The Weakest Goes to the Wall: The Impact of the COVID-19 Pandemic on Psychiatric Acute Care**  
 *Hejazian, H., Nasiry, J., Verter, V., Frank, D.*  
-In preparation for submission to *Management Science*
+In preparation for submission.
 
 **A Study on Effectiveness and Efficiency of ED Physicians**  
 *Hejazian, H., Saghafian, S., Baugh, J., Samadian, K., Meeker, M.*  
