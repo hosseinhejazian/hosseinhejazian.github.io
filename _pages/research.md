@@ -39,7 +39,7 @@ and govern decision systems that improve access, quality, and cost.
  - Finalist, Graduate Student Presentation Competition (CORS Health Care Operational Research SIG)
 
 ---
-
+<!--
 ## Working Papers
 **Interpretable Design of Multi-Agent Mobile Health Applications** (*Job Market Paper*)  
 *Zhalechian, M., Hejazian, H., Saghafian, S., Fukuoka, Y.*  
@@ -56,14 +56,14 @@ Target journal: an emergency medicine journal
 ---
 
 ## Work in Progress
-- **Together We Heal: The Power of Team Composition in Transforming Emergency Care**  
+- **The Power of Team Composition in Transforming Emergency Care**  
   *Hejazian, H., Saghafian, S., Baugh, J., Samadian, K., Meeker, M.*
 
 - **From Overlooked to Essential: Mining Clinical Psychiatry Notes with Language Models**  
   *Hejazian, H., Nasiry, J., Verter, V., Frank, D.*
+-->
 
-<!---
-
+<!--
 ## Invited Talks & Conference Presentations
 **Seminar Talks**
 - *An Analytical Framework for Mental Healthcare Operations Management*, Jewish General Hospital (Mar 2024)  
