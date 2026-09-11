@@ -1,0 +1,61 @@
+# ─────────────────────────────────────────────────────────────────────────────
+#  Publications and papers under review.
+#
+#  Every entry accepts these fields (all optional except `title` and `authors`):
+#
+#    title    : paper title
+#    url      : link to the published version / working paper
+#    authors  : author list, exactly as you want it printed. Your own name is
+#               bolded automatically wherever the string "Hejazian, H." appears.
+#    venue    : journal or conference name (printed in italics)
+#    detail   : volume, issue, pages, e.g. "29 (5): 1071-1086"
+#    year     : year, shown in the left margin
+#    status   : small pill, e.g. "Major revision"
+#    at       : where that status applies, e.g. "Health Care Management Science"
+#    award    : one-line honour attached to the paper
+#    featured : true  -> also appears in "Selected work" on the home page
+#
+#  To hide a paper without deleting it, comment its block out with "#".
+# ─────────────────────────────────────────────────────────────────────────────
+
+published:
+  - title: "Multi-objective optimization of radiotherapy: distributed Q-learning and agent-based simulation"
+    url: "https://www.tandfonline.com/doi/full/10.1080/0952813X.2017.1292319"
+    authors: "Jalalimanesh, A., Haghighi, H.S., Ahmadi, A., Hejazian, H., Soltani, M."
+    venue: "Journal of Experimental & Theoretical Artificial Intelligence"
+    detail: "29 (5): 1071–1086"
+    year: "2017"
+    featured: true
+
+under_review:
+  - title: "The Impact of Hospital Characteristics on Psychiatry Readmissions: A Mediation Framework"
+    url: "https://papers.ssrn.com/abstract=4438262"
+    authors: "Hejazian, H., Kucukyazici, B., Nasiry, J., Verter, V., Frank, D."
+    status: "Major revision"
+    at: "Health Care Management Science"
+    award: "Finalist, Graduate Student Presentation Competition — CORS Health Care Operational Research SIG"
+    featured: true
+
+# ─────────────────────────────────────────────────────────────────────────────
+#  Kept hidden for now, exactly as on the previous site. Uncomment a block
+#  (remove the leading "# " from each of its lines) to publish it, and add
+#  `working_papers` / `in_progress` to the `sections` list in _pages/research.md.
+# ─────────────────────────────────────────────────────────────────────────────
+
+# working_papers:
+#   - title: "Interpretable Design of Multi-Agent Mobile Health Applications"
+#     authors: "Zhalechian, M., Hejazian, H., Saghafian, S., Fukuoka, Y."
+#     status: "Job market paper"
+#     at: "In preparation for submission to Management Science"
+#   - title: "The Weakest Goes to the Wall: The Impact of the COVID-19 Pandemic on Psychiatric Acute Care"
+#     authors: "Hejazian, H., Nasiry, J., Verter, V., Frank, D."
+#     at: "In preparation for submission"
+#   - title: "A Study on Effectiveness and Efficiency of ED Physicians"
+#     authors: "Hejazian, H., Saghafian, S., Baugh, J., Samadian, K., Meeker, M."
+#     at: "Target journal: an emergency medicine journal"
+
+# in_progress:
+#   - title: "The Power of Team Composition in Transforming Emergency Care"
+#     authors: "Hejazian, H., Saghafian, S., Baugh, J., Samadian, K., Meeker, M."
+#   - title: "From Overlooked to Essential: Mining Clinical Psychiatry Notes with Language Models"
+#     authors: "Hejazian, H., Nasiry, J., Verter, V., Frank, D."

@@ -1,76 +1,41 @@
 ---
-layout: archive
+layout: page
 title: "Research"
 permalink: /research/
-author_profile: true
+eyebrow: "Papers & interests"
+lead: >-
+  My research sits at the intersection of operations management and AI/ML for
+  health-care delivery and the business of health, drawing on empirical
+  research, causal inference, interpretable machine learning, and reinforcement
+  learning to design, evaluate, and govern decision systems that improve
+  access, quality, and cost.
+redirect_from:
+  - /publications/
 ---
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-TRP046J4R0"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+{% include interest-list.html %}
 
-  gtag('config', 'G-TRP046J4R0');
-</script>
+<h2 class="section-title" id="publications"><span>Publications</span></h2>
 
-My research sits at the intersection operations management and AI/ML for health-care delivery and the business of health, drawing on empirical research, causal inference, interpretable machine learning, and reinforcement learning to design, evaluate,
-and govern decision systems that improve access, quality, and cost.
+{% include publication-list.html items=site.data.publications.published %}
 
-## Research Interests
-- Operations Management · Healthcare Management · Health Analytics
-- Empirical Research · Causal Inference · Machine Learning/Predictive Modeling · Sequential Decision-Making
+<h2 class="section-title" id="under-review"><span>Under review</span></h2>
 
----
+{% include publication-list.html items=site.data.publications.under_review %}
 
-## Publications
-**[Multi-objective optimization of radiotherapy: distributed Q-learning and agent-based simulation](https://www.tandfonline.com/doi/full/10.1080/0952813X.2017.1292319)**  
-*Jalalimanesh, A., Haghighi, H.S., Ahmadi, A., Hejazian, H., Soltani, M.*  
-*Journal of Experimental & Theoretical Artificial Intelligence* 29 (5): 1071–1086.  
-<!-- <small>Journal H-index = 55</small> -->
+{%- if site.data.publications.working_papers %}
+<h2 class="section-title" id="working-papers"><span>Working papers</span></h2>
 
----
+{% include publication-list.html items=site.data.publications.working_papers %}
+{%- endif %}
 
-## Under Review
-**[The Impact of Hospital Characteristics on Psychiatry Readmissions: A Mediation Framework](https://papers.ssrn.com/abstract=4438262)**  
-*Hejazian, H., Kucukyazici, B., Nasiry, J., Verter, V., Frank, D.*
- - Major Revision at Health Care Management Science.
- - Finalist, Graduate Student Presentation Competition (CORS Health Care Operational Research SIG)
+{%- if site.data.publications.in_progress %}
+<h2 class="section-title" id="in-progress"><span>Work in progress</span></h2>
 
----
-<!--
-## Working Papers
-**Interpretable Design of Multi-Agent Mobile Health Applications** (*Job Market Paper*)  
-*Zhalechian, M., Hejazian, H., Saghafian, S., Fukuoka, Y.*  
-In preparation for submission to *Management Science*
+{% include publication-list.html items=site.data.publications.in_progress %}
+{%- endif %}
 
-**The Weakest Goes to the Wall: The Impact of the COVID-19 Pandemic on Psychiatric Acute Care**  
-*Hejazian, H., Nasiry, J., Verter, V., Frank, D.*  
-In preparation for submission.
-
-**A Study on Effectiveness and Efficiency of ED Physicians**  
-*Hejazian, H., Saghafian, S., Baugh, J., Samadian, K., Meeker, M.*  
-Target journal: an emergency medicine journal
-
----
-
-## Work in Progress
-- **The Power of Team Composition in Transforming Emergency Care**  
-  *Hejazian, H., Saghafian, S., Baugh, J., Samadian, K., Meeker, M.*
-
-- **From Overlooked to Essential: Mining Clinical Psychiatry Notes with Language Models**  
-  *Hejazian, H., Nasiry, J., Verter, V., Frank, D.*
--->
-
-<!--
-## Invited Talks & Conference Presentations
-**Seminar Talks**
-- *An Analytical Framework for Mental Healthcare Operations Management*, Jewish General Hospital (Mar 2024)  
-- *The Impact of Hospital and Patient Characteristics on Psychiatry Readmissions*, McGill University (May 2023)
-
-**Invited Conference Presentations**
-- *Interpretable Design of Multi-Agent Mobile Health Applications*, INFORMS Annual Meeting (Oct 2025)  
-- *Effectiveness and Efficiency of ED Staff*, INFORMS Annual Meeting (Oct 2024)  
-- *Psychiatry Readmissions* presented at INFORMS (2021–2023), CORS 2023, MSOM 2023, and POMS 2022
--->
+<p class="note">
+  For the most current list, see my
+  <a href="https://scholar.google.com/citations?user=Di4VDJgAAAAJ" rel="noopener">Google Scholar profile</a>.
+</p>

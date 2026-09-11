@@ -1,26 +1,66 @@
 ---
-layout: archive
-title: "CV"
+layout: page
+title: "Curriculum Vitae"
 permalink: /cv/
-author_profile: true
+eyebrow: "At a glance"
 redirect_from:
   - /resume
+  - /resume/
 ---
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-TRP046J4R0"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<p class="cta">
+  <a class="button button--primary button--lg" href="{{ site.cv_url }}" rel="noopener">
+    {% include icon.html name="download" %}<span>Download full CV (PDF)</span>
+  </a>
+</p>
 
-  gtag('config', 'G-TRP046J4R0');
-</script>
+{%- if site.data.cv.positions %}
+<h2 class="section-title" id="positions"><span>Position</span></h2>
 
-My CV can be found [here](https://www.dropbox.com/scl/fi/5tyh5263ycl0yfbla45hl/CV_2025.pdf?rlkey=qa3uusvmidllv00z13vnsiznp&st=dgvl6pjn&dl=0).
+<ul class="entries">
+  {%- for item in site.data.cv.positions %}
+  <li class="entry">
+    <h3 class="entry__title entry__title--plain">{{ item.role }}</h3>
+    <p class="entry__meta">
+      {%- if item.url -%}
+        <a href="{{ item.url }}" rel="noopener">{{ item.org }}</a>
+      {%- else -%}
+        {{ item.org }}
+      {%- endif -%}
+      {%- if item.period %}<span class="pill pill--quiet">{{ item.period }}</span>{% endif -%}
+    </p>
+    {%- if item.note %}<p class="entry__note">{{ item.note }}</p>{% endif %}
+  </li>
+  {%- endfor %}
+</ul>
+{%- endif %}
 
----
+{%- if site.data.cv.education %}
+<h2 class="section-title" id="education"><span>Education</span></h2>
 
-<!--For reference, I am currently a **Postdoctoral Fellow** at the **Public Impact Analytics Science Lab, Harvard Kennedy School**, Harvard University, Cambridge MA.
--->
-You can also visit my [Google Scholar](https://scholar.google.com/citations?user=Di4VDJgAAAAJ) and [LinkedIn](https://www.linkedin.com/in/hossein-hejazian-1ab60053/) profiles for updates.
+<ul class="entries">
+  {%- for item in site.data.cv.education %}
+  <li class="entry">
+    <h3 class="entry__title entry__title--plain">{{ item.role }}</h3>
+    <p class="entry__meta">
+      {%- if item.url -%}
+        <a href="{{ item.url }}" rel="noopener">{{ item.org }}</a>
+      {%- else -%}
+        {{ item.org }}
+      {%- endif -%}
+    </p>
+    {%- if item.note %}<p class="entry__note">{{ item.note }}</p>{% endif %}
+  </li>
+  {%- endfor %}
+</ul>
+{%- endif %}
+
+<h2 class="section-title" id="honours"><span>Honours &amp; awards</span></h2>
+
+{% include award-list.html %}
+
+<p class="note">
+  You can also visit my
+  <a href="https://scholar.google.com/citations?user=Di4VDJgAAAAJ" rel="noopener">Google Scholar</a> and
+  <a href="https://www.linkedin.com/in/hossein-hejazian-1ab60053/" rel="noopener">LinkedIn</a> profiles for updates.
+</p>

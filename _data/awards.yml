@@ -1,0 +1,38 @@
+# Honours and awards, newest first.
+#   year   : shown in the left margin
+#   honour : optional emphasised prefix, e.g. "Finalist"
+#   title  : name of the award
+#   org    : awarding body
+
+- year: "2023"
+  honour: "Finalist"
+  title: "Graduate Student Presentation Competition"
+  org: "CORS Health Care Operational Research SIG"
+
+- year: "2021"
+  honour: "Meritorious Winner"
+  title: "Management Science PhD Performance Award"
+  org: "McGill University"
+
+- year: "2018"
+  title: "Desautels Faculty PhD Scholarship"
+  org: "McGill University"
+
+- year: "2018"
+  title: "International Supplement of PhD Program Tuition Fee"
+  org: "McGill University"
+
+- year: "2017"
+  title: "National Bank Financial Group PhD Fellowship"
+  org: "National Bank of Canada"
+
+# Kept hidden, as on the previous site:
+# - year: "2011"
+#   title: "Merit-Based Exemption for MSc Entrance Exam"
+#   org: "Tehran Polytechnic"
+# - year: "2011"
+#   title: "MSc Program Scholarship"
+#   org: "Iran Ministry of Science and Technology"
+# - year: "2007"
+#   title: "BSc Program Scholarship"
+#   org: "Iran Ministry of Science and Technology"

@@ -1,0 +1,45 @@
+{%- comment -%}
+  Renders the courses in _data/teaching.yml.
+  Usage: {% include course-list.html items=site.data.teaching.lecturer %}
+{%- endcomment -%}
+{%- assign items = include.items -%}
+{%- if items and items.size > 0 -%}
+<ul class="entries">
+  {%- for c in items -%}
+  <li class="entry entry--course">
+    <div class="entry__main">
+      <h3 class="entry__title">
+        {{ c.course }}{% if c.code %} <span class="entry__code">{{ c.code }}</span>{% endif %}
+      </h3>
+      <p class="entry__meta">
+        {%- if c.program %}{{ c.program }}{% endif -%}
+        {%- if c.term %}{% if c.program %}<span class="dot">·</span>{% endif %}{{ c.term }}{% endif -%}
+        {%- if c.role %}<span class="pill pill--quiet">{{ c.role }}</span>{% endif -%}
+      </p>
+      {%- if c.bullets %}
+      <ul class="entry__bullets">
+        {%- for b in c.bullets %}<li>{{ b }}</li>{% endfor -%}
+      </ul>
+      {%- endif -%}
+    </div>
+
+    {%- if c.rating or c.students %}
+    <dl class="figures">
+      {%- if c.rating %}
+      <div class="figure">
+        <dt>Evaluation</dt>
+        <dd>{{ c.rating }}{% if c.rating_note %} <span class="figure__note">{{ c.rating_note }}</span>{% endif %}</dd>
+      </div>
+      {%- endif -%}
+      {%- if c.students %}
+      <div class="figure">
+        <dt>Students</dt>
+        <dd>{{ c.students }}{% if c.students_note %} <span class="figure__note">{{ c.students_note }}</span>{% endif %}</dd>
+      </div>
+      {%- endif -%}
+    </dl>
+    {%- endif -%}
+  </li>
+  {%- endfor -%}
+</ul>
+{%- endif -%}

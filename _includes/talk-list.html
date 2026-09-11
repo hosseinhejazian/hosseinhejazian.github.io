@@ -1,0 +1,25 @@
+{%- comment -%}
+  Renders a list of talks from _data/talks.yml.
+  Usage: {% include talk-list.html items=site.data.talks.invited %}
+{%- endcomment -%}
+{%- assign items = include.items -%}
+{%- if items and items.size > 0 -%}
+<ul class="entries">
+  {%- for t in items -%}
+  <li class="entry entry--talk">
+    <h3 class="entry__title">
+      {%- if t.url -%}
+        <a href="{{ t.url }}" rel="noopener">{{ t.title }}{% include icon.html name="arrow" %}</a>
+      {%- else -%}
+        {{ t.title }}
+      {%- endif -%}
+    </h3>
+    <p class="entry__meta">
+      {%- if t.venue %}<cite>{{ t.venue }}</cite>{% endif -%}
+      {%- if t.date %}{% if t.venue %}<span class="dot">·</span>{% endif %}<span class="entry__date">{{ t.date }}</span>{% endif -%}
+      {%- if t.note %}<span class="pill pill--quiet">{{ t.note }}</span>{% endif -%}
+    </p>
+  </li>
+  {%- endfor -%}
+</ul>
+{%- endif -%}

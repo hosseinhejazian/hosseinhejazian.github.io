@@ -1,0 +1,14 @@
+# Profile links shown in the home-page hero and in the footer.
+# `icon` must match one of the names in _includes/icon.html.
+- label: "Email"
+  url: "mailto:hossein_hejazian@hks.harvard.edu"
+  icon: mail
+- label: "Google Scholar"
+  url: "https://scholar.google.com/citations?user=Di4VDJgAAAAJ"
+  icon: scholar
+- label: "LinkedIn"
+  url: "https://www.linkedin.com/in/hossein-hejazian-1ab60053/"
+  icon: linkedin
+- label: "GitHub"
+  url: "https://github.com/hosseinhejazian"
+  icon: github

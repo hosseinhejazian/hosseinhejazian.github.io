@@ -1,0 +1,13 @@
+# Research interests, shown on the home page and on /research/.
+- group: "Domains"
+  items:
+    - "Operations Management"
+    - "Healthcare Management"
+    - "Health Analytics"
+
+- group: "Methods"
+  items:
+    - "Empirical Research"
+    - "Causal Inference"
+    - "Machine Learning & Predictive Modeling"
+    - "Sequential Decision-Making"

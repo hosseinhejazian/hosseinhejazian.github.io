@@ -1,0 +1,78 @@
+// ─────────────────────────────────────────────────────────────────────────────
+//  Design tokens
+//
+//  Every colour on the site comes from one of these custom properties, so the
+//  palette can be retuned here without touching any component.
+// ─────────────────────────────────────────────────────────────────────────────
+
+@mixin dark-palette {
+  color-scheme: dark;
+
+  --bg:            #121211;
+  --bg-alt:        #191816;
+  --bg-veil:       rgba(18, 18, 17, 0.86);
+  --surface:       #1c1b18;
+
+  --ink:           #eeebe4;
+  --ink-2:         #a6a199;
+  --ink-3:         #8a847a;
+
+  --rule:          #2c2a26;
+  --rule-2:        #3b3833;
+
+  --accent:        #e39aa2;
+  --accent-hover:  #f0b4ba;
+  --accent-wash:   #241a1b;
+  --accent-line:   rgba(227, 154, 162, 0.4);
+  --on-accent:     #2a1418;
+
+  --shadow-sm:     0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-md:     0 1px 2px rgba(0, 0, 0, 0.35), 0 12px 28px -14px rgba(0, 0, 0, 0.8);
+}
+
+:root {
+  color-scheme: light;
+
+  --bg:            #fbfaf7;
+  --bg-alt:        #f4f1ea;
+  --bg-veil:       rgba(251, 250, 247, 0.86);
+  --surface:       #ffffff;
+
+  --ink:           #1b1a17;
+  --ink-2:         #55514a;
+  --ink-3:         #6f6a61;
+
+  --rule:          #e5e1d7;
+  --rule-2:        #d6d0c3;
+
+  --accent:        #8c2733;
+  --accent-hover:  #6f1e28;
+  --accent-wash:   #f7ece9;
+  --accent-line:   rgba(140, 39, 51, 0.35);
+  --on-accent:     #ffffff;
+
+  --shadow-sm:     0 1px 2px rgba(27, 26, 23, 0.06);
+  --shadow-md:     0 1px 2px rgba(27, 26, 23, 0.05), 0 14px 30px -18px rgba(27, 26, 23, 0.35);
+
+  --font-sans:     "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                   "Helvetica Neue", Arial, sans-serif;
+  --font-serif:    "Newsreader", "Iowan Old Style", "Palatino Linotype", Palatino,
+                   Georgia, "Times New Roman", serif;
+
+  // One measure for the whole site, so the wordmark, the name and every
+  // section heading line up on the same left edge.
+  --shell:         52rem;   // 832px
+  --gutter:        clamp(1.25rem, 5vw, 2.5rem);
+
+  --radius-sm:     6px;
+  --radius-md:     10px;
+  --radius-pill:   999px;
+}
+
+// System preference, unless the visitor has explicitly chosen light.
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { @include dark-palette; }
+}
+
+// Explicit choice always wins.
+:root[data-theme="dark"] { @include dark-palette; }

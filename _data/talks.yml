@@ -1,0 +1,54 @@
+# ─────────────────────────────────────────────────────────────────────────────
+#  Talks, presentations and session-chair roles.
+#
+#  Each entry:  title, venue, date, and an optional `note` pill.
+#  Entries are printed in the order they appear here — newest first.
+# ─────────────────────────────────────────────────────────────────────────────
+
+seminars:
+  - title: "An Analytical Framework for Mental Healthcare Operations Management"
+    venue: "Psychosocial Research Rounds, Jewish General Hospital, Montreal"
+    date: "March 21, 2024"
+    note: "Invited talk"
+  - title: "The Impact of Hospital and Patient Characteristics on Psychiatry Readmissions"
+    venue: "Operations Management Area, Desautels Faculty of Management, McGill University"
+    date: "May 12, 2023"
+
+invited:
+  - title: "Interpretable Design of Multi-Agent Mobile Health Applications"
+    venue: "INFORMS Annual Meeting"
+    date: "October 26–29, 2025"
+  - title: "Effectiveness and Efficiency of ED Staff"
+    venue: "INFORMS Annual Meeting"
+    date: "October 20–23, 2024"
+  - title: "The Impact of Hospital and Patient Characteristics on Psychiatry Readmissions"
+    venue: "INFORMS Annual Meeting"
+    date: "October 15–18, 2023"
+  - title: "The Impact of Hospital and Patient Characteristics on Psychiatry Readmissions"
+    venue: "INFORMS Healthcare Conference"
+    date: "July 26–28, 2023"
+  - title: "The Impact of Hospital and Patient Characteristics on Psychiatry Readmissions"
+    venue: "CORS Annual Conference"
+    date: "May 29–31, 2023"
+  - title: "Heeding the Early Warning: The Revolving Door Problem of Psychiatric Patients"
+    venue: "INFORMS Healthcare Conference"
+    date: "July 21–23, 2021"
+
+contributed:
+  - title: "The Impact of Hospital and Patient Characteristics on Psychiatry Readmissions"
+    venue: "INFORMS MSOM Conference"
+    date: "June 24–26, 2023"
+  - title: "Weeping Hospitals: How Patient Complexity and Hospital Operational Characteristics Affect the Psychiatric Readmission Problem"
+    venue: "POMS Annual Conference"
+    date: "April 21–25, 2022"
+
+chair:
+  - title: "Session 458 — “Frontiers in Healthcare Analytics”"
+    venue: "INFORMS Annual Meeting"
+    date: "October 26–29, 2025"
+  - title: "Session WA06 — “Data-Driven Decision-Making in Healthcare”"
+    venue: "INFORMS Healthcare Conference"
+    date: "July 26–28, 2023"
+  - title: "Session MC2-HO8 — “Optimization for Patients”"
+    venue: "INFORMS MSOM Conference"
+    date: "June 24–26, 2023"
