@@ -1,0 +1,44 @@
+{%- comment -%}
+  Renders a list of papers from _data/publications.yml.
+  Usage: {% include publication-list.html items=site.data.publications.published %}
+{%- endcomment -%}
+{%- assign items = include.items -%}
+{%- if items and items.size > 0 -%}
+{%- capture self_name -%}<strong class="is-self">{{ site.self_name }}</strong>{%- endcapture -%}
+<ul class="entries">
+  {%- for p in items -%}
+  <li class="entry entry--paper">
+    <h3 class="entry__title">
+      {%- if p.url -%}
+        <a href="{{ p.url }}" rel="noopener">{{ p.title }}{% include icon.html name="arrow" %}</a>
+      {%- else -%}
+        {{ p.title }}
+      {%- endif -%}
+    </h3>
+
+    {%- if p.authors %}
+    <p class="entry__authors">{{ p.authors | replace: site.self_name, self_name }}</p>
+    {%- endif -%}
+
+    {%- if p.venue or p.detail or p.year %}
+    <p class="entry__meta">
+      {%- if p.venue %}<cite>{{ p.venue }}</cite>{% endif -%}
+      {%- if p.detail %}{% if p.venue %}<span class="dot">·</span>{% endif %}{{ p.detail }}{% endif -%}
+      {%- if p.year %}{% if p.venue or p.detail %}<span class="dot">·</span>{% endif %}{{ p.year }}{% endif -%}
+    </p>
+    {%- endif -%}
+
+    {%- if p.status or p.at %}
+    <p class="entry__status">
+      {%- if p.status %}<span class="pill">{{ p.status }}</span>{% endif -%}
+      {%- if p.at %}<span class="entry__at">{% if p.status %}at {% endif %}<cite>{{ p.at }}</cite></span>{% endif -%}
+    </p>
+    {%- endif -%}
+
+    {%- if p.award %}
+    <p class="entry__award">{{ p.award }}</p>
+    {%- endif -%}
+  </li>
+  {%- endfor -%}
+</ul>
+{%- endif -%}

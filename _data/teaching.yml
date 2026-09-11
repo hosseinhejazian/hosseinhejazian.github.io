@@ -1,0 +1,56 @@
+# ─────────────────────────────────────────────────────────────────────────────
+#  Courses taught.
+#
+#  Each entry:  code, course, program, term, role, and an optional list of
+#  `bullets`. `rating` and `students`, when present, are shown as small
+#  figures beside the course.
+#
+#  Teaching-assistant lists from the previous site are kept, commented out,
+#  at the bottom of this file.
+# ─────────────────────────────────────────────────────────────────────────────
+
+lecturer:
+  - code: "MGCR 472"
+    course: "Operations Management"
+    program: "BCom Program · McGill University"
+    term: "Summer 2021"
+    role: "Sole instructor"
+    rating: "4.2 / 5"
+    rating_note: "average"
+    students: "45"
+    students_note: "undergraduate"
+
+  - code: "MGSC 640"
+    course: "Fundamentals of Decision Analytics"
+    program: "MBA Program · McGill University"
+    term: "Fall 2021 & Fall 2022"
+    role: "Assistant instructor"
+    rating: "5 / 5"
+    rating_note: "median, Fall 2022"
+    students: "25 & 11"
+    students_note: "graduate"
+    bullets:
+      - "Taught one third of the semester, on Python for data science."
+      - "Course evaluations: 5 / 5 (median, Fall 2022) and 4 / 5 (median, Fall 2021)."
+
+  - code: "INTG 202"
+    course: "Integrated Management Essentials 2"
+    program: "McGill University"
+    term: "Winter 2022"
+    role: "Co-instructor"
+    students: "133"
+    students_note: "undergraduate"
+    bullets:
+      - "Co-instructor for the operations management module."
+
+# assistant:
+#   - institution: "McGill University"
+#     courses:
+#       - "Decision Analytics (MGSC 662, MMA Program)"
+#       - "Operations Management (MGCR 472, BCom Program)"
+#       - "Revenue Management (MGSC 670, MMA Program)"
+#   - institution: "Amirkabir University of Technology (Tehran Polytechnic)"
+#     courses:
+#       - "Operations Research (MSc IE)"
+#       - "Statistical Engineering (BSc IE)"
+#       - "Probability Theory Applications (BSc IE)"

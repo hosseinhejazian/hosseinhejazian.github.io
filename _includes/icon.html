@@ -1,0 +1,39 @@
+{%- comment -%}
+  Inline SVG icons. Usage: {% include icon.html name="mail" %}
+  All icons are 24x24, stroke-based, and inherit the current text colour.
+{%- endcomment -%}
+{%- capture svg -%}
+{%- case include.name -%}
+
+{%- when 'mail' -%}
+  <rect x="2.5" y="4.5" width="19" height="15" rx="2.5"/><path d="m3 6.5 9 6 9-6"/>
+
+{%- when 'scholar' -%}
+  <path d="M12 3.5 1.8 9 12 14.5 22.2 9 12 3.5Z"/><path d="M5.5 11.2v5.1c0 .5.3 1 .8 1.3 1.5.9 3.6 1.4 5.7 1.4s4.2-.5 5.7-1.4c.5-.3.8-.8.8-1.3v-5.1"/><path d="M22.2 9v5.6"/>
+
+{%- when 'linkedin' -%}
+  <rect x="3" y="3" width="18" height="18" rx="3"/><path d="M7.5 10.5V17"/><circle cx="7.5" cy="7.2" r=".9" fill="currentColor" stroke="none"/><path d="M11.5 17v-3.6a2.9 2.9 0 0 1 5.8 0V17"/><path d="M11.5 10.5V17"/>
+
+{%- when 'github' -%}
+  <path d="M9.2 20.6c-4 1.2-4-2.1-5.6-2.5m11.2 5v-3.4c0-1 .1-1.4-.5-2 2.6-.3 5.1-1.3 5.1-5.7a4.4 4.4 0 0 0-1.2-3.1 4.1 4.1 0 0 0-.1-3.1s-1-.3-3.3 1.2a11.4 11.4 0 0 0-5.9 0C6.6 4.5 5.6 4.8 5.6 4.8a4.1 4.1 0 0 0-.1 3.1 4.4 4.4 0 0 0-1.2 3.2c0 4.3 2.5 5.3 5.1 5.6-.6.6-.6 1.2-.5 2v3.4"/>
+
+{%- when 'file' -%}
+  <path d="M14 2.5H7a2 2 0 0 0-2 2v15a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7.5l-5-5Z"/><path d="M14 2.5v5h5"/><path d="M8.5 13h7M8.5 16.5h5"/>
+
+{%- when 'download' -%}
+  <path d="M12 3.5v11"/><path d="m7.5 10.5 4.5 4.5 4.5-4.5"/><path d="M4 18.5v1a1.5 1.5 0 0 0 1.5 1.5h13a1.5 1.5 0 0 0 1.5-1.5v-1"/>
+
+{%- when 'arrow' -%}
+  <path d="M6.5 17.5 17.5 6.5"/><path d="M9 6.5h8.5V15"/>
+
+{%- when 'sun' -%}
+  <circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M18.7 5.3l-1.4 1.4M6.7 17.3l-1.4 1.4"/>
+
+{%- when 'moon' -%}
+  <path d="M20.5 14.3A8.5 8.5 0 1 1 9.7 3.5a6.6 6.6 0 0 0 10.8 10.8Z"/>
+
+{%- endcase -%}
+{%- endcapture -%}
+{%- if svg != '' -%}
+<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">{{ svg }}</svg>
+{%- endif -%}

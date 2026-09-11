@@ -1,0 +1,13 @@
+{%- assign groups = include.items | default: site.data.interests -%}
+{%- if groups and groups.size > 0 -%}
+<dl class="interests">
+  {%- for group in groups %}
+  <div class="interests__row">
+    <dt>{{ group.group }}</dt>
+    <dd>
+      {%- for item in group.items %}<span class="chip">{{ item }}</span>{% endfor -%}
+    </dd>
+  </div>
+  {%- endfor %}
+</dl>
+{%- endif -%}

@@ -1,0 +1,77 @@
+---
+layout: default
+---
+{%- assign empty = "" | split: "," -%}
+{%- assign pubs = site.data.publications.published | default: empty -%}
+{%- assign revs = site.data.publications.under_review | default: empty -%}
+{%- assign all_papers = revs | concat: pubs -%}
+{%- assign featured = all_papers | where: "featured", true -%}
+
+<section class="hero">
+  <div class="shell hero__inner">
+    <div class="hero__portrait">
+      <img src="{{ '/assets/img/profile.jpg' | relative_url }}"
+           width="400" height="400" alt="Portrait of {{ site.title }}" fetchpriority="high">
+    </div>
+
+    <div class="hero__text">
+      {%- if page.role %}<p class="eyebrow">{{ page.role }}</p>{% endif %}
+      <h1 class="hero__name">{{ site.title }}</h1>
+      {%- if page.affiliation %}
+      <p class="hero__affiliation">{{ page.affiliation | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+      {%- endif %}
+
+      <div class="hero__bio prose">
+        {{ content }}
+      </div>
+
+      <div class="linkbar">
+        {%- if site.cv_url -%}
+        <a class="button button--primary" href="{{ site.cv_url }}" rel="noopener">
+          {% include icon.html name="file" %}<span>Curriculum Vitae</span>
+        </a>
+        {%- endif -%}
+        {%- for link in site.data.links -%}
+        <a class="button" href="{{ link.url }}"{% unless link.url contains 'mailto:' %} rel="me noopener"{% endunless %}>
+          {% include icon.html name=link.icon %}<span>{{ link.label }}</span>
+        </a>
+        {%- endfor -%}
+      </div>
+    </div>
+  </div>
+</section>
+
+{%- if page.research_lead or site.data.interests %}
+<section class="band" id="research">
+  <div class="shell">
+    <h2 class="section-title"><span>Research</span></h2>
+
+    {%- if page.research_lead %}
+    <div class="lead">{{ page.research_lead | markdownify }}</div>
+    {%- endif %}
+
+    {% include interest-list.html %}
+  </div>
+</section>
+{%- endif %}
+
+{%- if featured.size > 0 %}
+<section class="band band--alt" id="selected-work">
+  <div class="shell">
+    <h2 class="section-title"><span>Selected work</span></h2>
+    {% include publication-list.html items=featured %}
+    <p class="more">
+      <a href="{{ '/research/' | relative_url }}">All research{% include icon.html name="arrow" %}</a>
+    </p>
+  </div>
+</section>
+{%- endif %}
+
+{%- if site.data.awards and site.data.awards.size > 0 %}
+<section class="band" id="honours">
+  <div class="shell">
+    <h2 class="section-title"><span>Honours &amp; awards</span></h2>
+    {% include award-list.html %}
+  </div>
+</section>
+{%- endif %}

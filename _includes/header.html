@@ -1,0 +1,26 @@
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="shell site-header__inner">
+    <a class="wordmark" href="{{ '/' | relative_url }}">
+      <span class="wordmark__name">{{ site.title }}</span>
+    </a>
+
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        {%- assign here = page.url | remove: 'index.html' -%}
+        {%- for item in site.data.nav -%}
+          {%- assign target = item.url | relative_url -%}
+          <li>
+            <a href="{{ target }}"{% if here == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
+          </li>
+        {%- endfor -%}
+      </ul>
+    </nav>
+
+    <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch to dark theme">
+      <span class="theme-toggle__icon theme-toggle__icon--sun">{% include icon.html name="sun" %}</span>
+      <span class="theme-toggle__icon theme-toggle__icon--moon">{% include icon.html name="moon" %}</span>
+    </button>
+  </div>
+</header>

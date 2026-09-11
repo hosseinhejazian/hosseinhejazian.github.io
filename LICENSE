@@ -1,6 +1,6 @@
 The MIT License (MIT)
 
-Copyright (c) 2016 Michael Rose
+Copyright (c) 2026 Hossein Hejazian
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,13 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+The current theme was written for this site and shares no code with what came
+before. Earlier revisions of this repository were based on the academicpages
+template, itself a fork of the Minimal Mistakes Jekyll theme,
+Copyright (c) 2016 Michael Rose, also released under the MIT License.
+
+The bundled typefaces in assets/fonts/ — Inter and Newsreader — are licensed
+under the SIL Open Font License 1.1.

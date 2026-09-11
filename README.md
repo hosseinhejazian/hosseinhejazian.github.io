@@ -1,31 +1,136 @@
-A Github Pages template for academic websites. This was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License. See LICENSE.md.
+# hosseinhejazian.github.io
 
-I think I've got things running smoothly and fixed some major bugs, but feel free to file issues or make pull requests if you want to improve the generic template / theme.
+Personal academic website for Hossein Hejazian — <https://hosseinhejazian.github.io>
 
-### Note: if you are using this repo and now get a notification about a security vulnerability, delete the Gemfile.lock file. 
+A small, self-contained [Jekyll](https://jekyllrb.com/) site with a custom theme.
+No third-party template, no external CSS or font CDN, nothing to pay for: it is
+built and served free by GitHub Pages.
 
-# Instructions
+---
 
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
+## 1. Getting the site online
 
-See more info at https://academicpages.github.io/
+The site will not appear until **GitHub Pages is switched on for this
+repository** — that is the one step that has to be done in the GitHub web UI.
 
-## To run locally (not on GitHub Pages, to serve on your own computer)
+1. Go to **Settings → Pages** (<https://github.com/hosseinhejazian/hosseinhejazian.github.io/settings/pages>).
+2. Under **Build and deployment → Source**, choose **GitHub Actions**.
+   The workflow in `.github/workflows/pages.yml` takes it from there and
+   redeploys on every push to `master`.
+3. Wait for the run in the **Actions** tab to go green, then open
+   <https://hosseinhejazian.github.io>. The first deploy usually takes a
+   minute or two; DNS/CDN propagation can add a few more.
 
-1. Clone the repository and made updates as detailed above
-1. Make sure you have ruby-dev, bundler, and nodejs installed: `sudo apt install ruby-dev ruby-bundler nodejs`
-1. Run `bundle clean` to clean up the directory (no need to run `--force`)
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
-1. Run `bundle exec jekyll liveserve` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
+**Choosing "Deploy from a branch" (`master` / `/root`) instead also works** —
+the site is written to build identically either way. GitHub Actions is
+preferred only because a failed build shows up as a red ✗ in the Actions tab
+instead of arriving as an email.
 
-# Changelog -- bugfixes and enhancements
+> **Keep the repository public.** On a free GitHub plan, Pages only publishes
+> from public repositories. Making this repository private takes the site
+> offline again — that is what happened before.
 
-There is one logistical issue with a ready-to-fork template theme like academic pages that makes it a little tricky to get bug fixes and updates to the core theme. If you fork this repository, customize it, then pull again, you'll probably get merge conflicts. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch. 
+## 2. Editing the content
 
-To support this, all changes to the underlying code appear as a closed issue with the tag 'code change' -- get the list [here](https://github.com/academicpages/academicpages.github.io/issues?q=is%3Aclosed%20is%3Aissue%20label%3A%22code%20change%22%20). Each issue thread includes a comment linking to the single commit or a diff across multiple commits, so those with forked repositories can easily identify what they need to patch.
+Almost everything lives in **`_data/`** as plain YAML lists. Add an entry, commit,
+and the page rebuilds itself — no HTML or CSS to touch.
+
+| What you want to change | File |
+| --- | --- |
+| Papers, papers under review | `_data/publications.yml` |
+| Talks, presentations, session chair roles | `_data/talks.yml` |
+| Courses | `_data/teaching.yml` |
+| Honours and awards | `_data/awards.yml` |
+| Research-interest tags | `_data/interests.yml` |
+| Position / education on the CV page | `_data/cv.yml` |
+| Email, Scholar, LinkedIn, GitHub links | `_data/links.yml` |
+| The menu across the top | `_data/nav.yml` |
+
+Each file starts with a comment block explaining its fields. Two conventions
+worth knowing:
+
+- **Your own name is bolded automatically** anywhere `Hejazian, H.` appears in
+  an author list. That string is set as `self_name` in `_config.yml`.
+- **To hide something without losing it**, comment its lines out with `#`.
+  The working papers, the work-in-progress list, and the teaching-assistant
+  history from the previous site are all parked that way at the bottom of their
+  data files, ready to be uncommented.
+
+Prose — the paragraphs under each page title — lives in **`_pages/`**:
+
+| Page | File |
+| --- | --- |
+| Home (bio, research statement) | `_pages/index.md` |
+| Research | `_pages/research.md` |
+| Teaching | `_pages/teaching.md` |
+| Talks | `_pages/talks.md` |
+| CV | `_pages/cv.md` |
+
+Site-wide settings — title, description, the CV link, the Google Analytics ID —
+are in **`_config.yml`**.
+
+### Replacing the CV
+
+The **Curriculum Vitae** button points at `cv_url` in `_config.yml`, currently a
+Dropbox link. To serve the PDF from the site itself instead, drop the file into
+`files/` and set:
+
+```yaml
+cv_url: "/files/CV.pdf"
+```
+
+### Replacing the photo
+
+Overwrite `assets/img/profile.jpg` (square, 400 × 400 or larger). The social
+preview card at `assets/img/og-card.png` — the image that shows when the site is
+shared on LinkedIn or in a message — contains the same photo and would need
+regenerating to match.
+
+## 3. Previewing locally (optional)
+
+Not required — you can edit files straight on github.com and let the Actions
+workflow build the site. But to see changes before pushing:
+
+```bash
+bundle install
+bundle exec jekyll serve
+# → http://127.0.0.1:4000
+```
+
+`bundle install` needs Ruby. The `github-pages` gem in the `Gemfile` pins Jekyll
+and every plugin to the versions GitHub Pages itself runs, so the local preview
+matches what gets deployed.
+
+## 4. How it is put together
+
+```
+_config.yml            site settings
+_data/                 all the content lists (see the table above)
+_pages/                one Markdown file per page
+_layouts/              default.html, page.html, home.html
+_includes/             header, footer, icons, and the list renderers
+_sass/                 _tokens (colours & type), _base, _layout, _components, _print
+assets/
+  css/main.scss        imports the partials above
+  js/site.js           light/dark toggle
+  fonts/               Inter + Newsreader, self-hosted (no font CDN)
+  img/                 portrait and social card
+files/                 PDFs
+.github/workflows/     the Pages build
+```
+
+Notes on the theme:
+
+- **Colours** are CSS custom properties defined once in `_sass/_tokens.scss`.
+  Light and dark palettes are declared there and nowhere else, so retuning the
+  site means editing that one file.
+- **Dark mode** follows the reader's system setting; the ◐ button in the header
+  overrides it and remembers the choice.
+- **Fonts are self-hosted** in `assets/fonts/`, so the site makes no
+  third-party requests and renders the same everywhere.
+- The site **prints cleanly** — `_sass/_print.scss` drops the navigation and
+  chrome and expands link URLs.
+
+## Licence
+
+Site content © Hossein Hejazian. The theme code is MIT licensed — see `LICENSE`.

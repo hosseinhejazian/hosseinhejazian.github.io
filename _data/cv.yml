@@ -1,0 +1,15 @@
+# Short "at a glance" summary shown on the CV page.
+# The full CV itself lives at `cv_url` in _config.yml.
+
+positions:
+  - role: "Postdoctoral Fellow"
+    org: "Public Impact Analytics Science Lab (PIAS-Lab), Harvard University"
+    url: "https://scholar.harvard.edu/saghafian/public-impact-analytics-science-lab-pias-lab-harvard"
+    note: "Working with Professor Soroush Saghafian"
+    period: "Present"
+
+education:
+  - role: "Ph.D., Operations Management"
+    org: "Desautels Faculty of Management, McGill University"
+    url: "https://www.mcgill.ca/desautels/"
+    note: "Advised by Professor Javad Nasiry and Professor Vedat Verter"
