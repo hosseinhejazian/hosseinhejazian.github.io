@@ -3,27 +3,32 @@ name: Build and deploy site
 on:
   push:
     branches: [master]
+  pull_request:
+    branches: [master]
   workflow_dispatch:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
-# Let one deployment finish rather than cancelling it mid-flight.
+# Deployments to master queue up rather than cancelling each other; a pull
+# request only needs its newest build.
 concurrency:
-  group: pages
-  cancel-in-progress: false
+  group: pages-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 jobs:
+  # Runs on pull requests too, so a typo in _data/*.yml shows up as a failed
+  # check instead of a site that silently stops updating. Deliberately does
+  # not use actions/configure-pages: this is a user site with `url` and
+  # `baseurl` set in _config.yml, so there is nothing to look up, and the
+  # build then does not depend on Pages being enabled.
   build:
+    name: Build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/configure-pages@v5
-
-      # Same builder GitHub Pages uses for a branch deployment, so the two
+      # The same builder a "deploy from a branch" setup uses, so both
       # publishing routes produce identical output.
       - uses: actions/jekyll-build-pages@v1
         with:
@@ -33,8 +38,14 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
 
   deploy:
+    name: Deploy
+    if: github.event_name != 'pull_request'
     needs: build
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
