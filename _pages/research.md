@@ -4,11 +4,10 @@ title: "Research"
 permalink: /research/
 eyebrow: "Papers & interests"
 lead: >-
-  My research sits at the intersection of operations management and AI/ML for
-  health-care delivery and the business of health, drawing on empirical
-  research, causal inference, interpretable machine learning, and reinforcement
-  learning to design, evaluate, and govern decision systems that improve
-  access, quality, and cost.
+  My research sits at the intersection of data-driven analytics, AI/ML, and clinical
+  operations for healthcare management, drawing on causal inference, empirical research,
+  interpretable machine learning, and reinforcement learning to design, evaluate, and
+  govern decision systems that improve access, quality, and cost in health systems.
 redirect_from:
   - /publications/
 ---
