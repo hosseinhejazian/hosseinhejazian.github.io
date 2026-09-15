@@ -5,11 +5,11 @@
 # ─────────────────────────────────────────────────────────────────────────────
 
 title            : "Hossein Hejazian"
-tagline          : "Postdoctoral Fellow, Harvard University"
+tagline          : "Postdoctoral Research Fellow, Harvard University"
 description      : >-
-  Hossein Hejazian is a Postdoctoral Fellow at the Public Impact Analytics
-  Science Lab (PIAS-Lab) at Harvard University. His research sits at the
-  intersection of operations management and AI/ML for health-care delivery
+  Hossein Hejazian is a Postdoctoral Researcg Fellow at the Boston Children's
+  Hospital and Harvard University. His research sits at the intersection of
+  data-driven analytics, AI/ML, and clinical operations forhealth-care delivery
   and the business of health.
 
 url              : "https://hosseinhejazian.github.io"
@@ -37,7 +37,7 @@ social:
 image            : "/assets/img/og-card.png"
 
 # Link to the full CV. Used by the hero button and the CV page.
-cv_url           : "https://www.dropbox.com/scl/fi/5tyh5263ycl0yfbla45hl/CV_2025.pdf?rlkey=qa3uusvmidllv00z13vnsiznp&st=dgvl6pjn&dl=0"
+cv_url           : "https://www.dropbox.com/scl/fi/9c045aod2trnruzputz15/CV_2026.pdf?rlkey=op9lbodhsaty5j9yuwt1hjs2m&st=erony0qr&dl=0"
 
 # Your own name as it is written in author lists — bolded automatically
 # wherever it appears in _data/publications.yml.
