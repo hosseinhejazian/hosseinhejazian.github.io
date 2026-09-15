@@ -9,8 +9,8 @@ affiliation: >-
   [Public Impact Analytics Science Lab](https://scholar.harvard.edu/saghafian/public-impact-analytics-science-lab-pias-lab-harvard)
   · [Harvard University](https://www.harvard.edu/)
 research_lead: >-
-  My research sits at the intersection of operations management and AI/ML for
-  health-care delivery and the business of health, drawing on empirical
+  My research sits at the intersection of analytics, operations management and
+  AI/ML for health-care delivery and the business of health, drawing on empirical
   research, causal inference, interpretable machine learning, and reinforcement
   learning to design, evaluate, and govern decision systems that improve
   access, quality, and cost.
