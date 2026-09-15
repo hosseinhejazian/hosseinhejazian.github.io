@@ -18,7 +18,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a Postdoctoral Fellow at the
+I am a Postdoctoral Research Fellow at Boston Children's Hospital (Harvard Medical
+School) and Harvard School of Public Health, working with Dr. [Arin Madenci](https://www.childrenshospital.org/providers/arin-l-madenci).
+Prior to this, I was a Postdoctoral Fellow at
 [Public Impact Analytics Science Lab (PIAS-Lab)](https://scholar.harvard.edu/saghafian/public-impact-analytics-science-lab-pias-lab-harvard),
 [Harvard University](https://www.harvard.edu/), working with Professor
 [Soroush Saghafian](https://www.hks.harvard.edu/faculty/soroush-saghafian).
