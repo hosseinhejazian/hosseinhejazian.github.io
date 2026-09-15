@@ -1,7 +1,7 @@
 # Profile links shown in the home-page hero and in the footer.
 # `icon` must match one of the names in _includes/icon.html.
 - label: "Email"
-  url: "mailto:hossein_hejazian@hks.harvard.edu"
+  url: "mailto:hossein.hejazian@childrens.harvard.edu"
   icon: mail
 - label: "Google Scholar"
   url: "https://scholar.google.com/citations?user=Di4VDJgAAAAJ"
