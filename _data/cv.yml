@@ -2,11 +2,17 @@
 # The full CV itself lives at `cv_url` in _config.yml.
 
 positions:
+  - role: "Postdoctoral Research Fellow"
+    org: "CAUSALab, Harvard University"
+    url: ""
+    note: "Joint appointment with Boston Children's Hospital"
+    period: "Present"
   - role: "Postdoctoral Fellow"
     org: "Public Impact Analytics Science Lab (PIAS-Lab), Harvard University"
-    url: "https://scholar.harvard.edu/saghafian/public-impact-analytics-science-lab-pias-lab-harvard"
-    note: "Working with Professor Soroush Saghafian"
-    period: "Present"
+    url: "https://soroushsaghafian.com/lab/"
+    #"https://scholar.harvard.edu/saghafian/public-impact-analytics-science-lab-pias-lab-harvard"
+    note: ""
+    period: "Previous"
 
 education:
   - role: "Ph.D., Operations Management"
