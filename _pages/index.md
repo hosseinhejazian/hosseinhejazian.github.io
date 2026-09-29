@@ -6,7 +6,7 @@ permalink: /
 # built from `title` and `tagline` in _config.yml.
 role: "Postdoctoral Fellow"
 affiliation: >-
-  [Public Impact Analytics Science Lab](https://scholar.harvard.edu/saghafian/public-impact-analytics-science-lab-pias-lab-harvard)
+  [CAUSALab](https://hsph.harvard.edu/research/causalab/)
   · [Harvard University](https://www.harvard.edu/)
 research_lead: >-
   My research sits at the intersection of data-driven analytics, AI/ML, and clinical
